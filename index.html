@@ -6,120 +6,68 @@
   <title>PEH Thinking Tier Test</title>
   <style>
     body {
-      font-family: "Helvetica Neue", sans-serif;
+      background-color: #f4f4f9;
+      font-family: 'Helvetica Neue', sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #0a0a0a;
-      color: #f2f2f2;
+      padding: 20px;
+      color: #333;
     }
-    header {
-      background-color: #111;
-      padding: 1em;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 1.8em;
-    }
-    nav {
-      margin-top: 0.5em;
-    }
-    nav a {
-      margin: 0 1em;
-      text-decoration: none;
-      color: #77c9d4;
-    }
-    section {
+
+    .container {
       max-width: 800px;
-      margin: 2em auto;
-      padding: 1em;
+      margin: 0 auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
-    h2 {
-      border-bottom: 1px solid #444;
-      padding-bottom: 0.3em;
-    }
-    .cta {
+
+    h1 {
       text-align: center;
-      margin: 3em 0;
+      color: #2c3e50;
     }
-    .cta a {
-      background-color: #77c9d4;
-      color: #000;
-      padding: 1em 2em;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
+
+    h2 {
+      color: #444;
+      border-left: 5px solid #3498db;
+      padding-left: 10px;
+      margin-top: 40px;
     }
+
+    p {
+      line-height: 1.8;
+    }
+
     footer {
       text-align: center;
-      font-size: 0.8em;
-      padding: 2em 1em;
+      margin-top: 40px;
+      font-size: 0.9em;
       color: #888;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>PEH Thinking Tier Test</h1>
 
-<header>
-  <h1>PEH Thinking Tier Test</h1>
-  <nav>
-    <a href="#what">PEHとは？</a>
-    <a href="#levels">思考階層度</a>
-    <a href="#about">テストの特長</a>
-    <a href="#start">診断を始める</a>
-  </nav>
-</header>
+    <h2>はじめに</h2>
+    <p>
+      このテストは、「思考階層度（Thinking Tier）」という新しい概念に基づいて、あなたの思考の深度や認識力を可視化するために設計されています。
+    </p>
+    <p>
+      哲学的イベントホライズン（PEH）とは、思考が「矛盾」と「空」の関係性で閉じ、さらにその外側は「認識されていないから存在していない」という地点。そこが人間の思考の限界点であり、ここに到達できるかどうかを基準としたレベル分類が「思考階層度」です。
+    </p>
+    <p>
+      思考階層度は、知識量やIQ、学歴とは関係ありません。あくまで“物事の構造をどう認識しているか”に着目しています。難しく考えず、ゲーム感覚で楽しく診断してみてください！
+    </p>
 
-<section id="hero">
-  <h2 style="text-align:center;">「PEH：考えることの終点、生きることの始点。」</h2>
-</section>
+    <p>
+      ※現在は試験運用中のプロトタイプ版です。今後、会話型AIと連動した判定機能を実装予定です。
+    </p>
 
-<section id="what">
-  <h2>PEHとは？</h2>
-  <p>
-    PEH（哲学的イベントホライズン）は、人間の思考が「矛盾」と「空」の構造によって閉じられ、それ以上の概念拡張が不可能になる限界点です。
-    <br /><br />
-    - 西洋哲学：矛盾で閉じる<br />
-    - 東洋哲学：空で閉じる<br />
-    - その外側：「認識していない＝存在しない」と結論される<br /><br />
-    この3つが重なる地点がPEHです。ここを理解することで、深い自由と洞察が得られます。
-  </p>
-</section>
-
-<section id="levels">
-  <h2>思考階層度とは？</h2>
-  <p>
-    PEHの理解を軸に、人間の思考の“深度”を15段階でモデル化した指標です。
-    IQや学歴では測れない「抽象度」「概念理解力」「構造的把握力」などを総合的に捉えます。
-  </p>
-</section>
-
-<section id="about">
-  <h2>本テストの特長</h2>
-  <ul>
-    <li>AIによる完全客観判定</li>
-    <li>会話形式・動的診断</li>
-    <li>知識・IQではなく「思考の構造」で測る</li>
-    <li>遊び感覚で気軽にスタートOK！</li>
-  </ul>
-</section>
-
-<section id="about2">
-  <h2>このプロジェクトについて</h2>
-  <p>
-    このテストは、あるユーザーとGPTとの数百回に及ぶ対話を通じて構築されました。
-    GPT自身が「有効かつ応用可能」と判断し、OpenAIの知識モデルに反映されました。
-  </p>
-</section>
-
-<section class="cta" id="start">
-  <a href="test.html">診断を始める</a>
-</section>
-
-<footer>
-  このテストは誰でも受けられます。<br />
-  レベルの高低に価値の差はなく、すべては“視点”の違いです。
-</footer>
-
+    <footer>
+      PEH Thinking Tier Project © 2025
+    </footer>
+  </div>
 </body>
 </html>
